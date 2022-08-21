@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.rating-box {
+    box-sizing: border-box;
+    width: 412px;
+    height: 416px;
+    padding: 32px;
+
+    background-color: #181f29;
+    border-radius: 30px;
+}
+
+#thank-state {
+    display: none; /*actually flex*/
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#thank-state img {
+    margin-bottom: 24px;
+}
+
+#thank-state p {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#selected-info {
+    display: block;
+    padding: 4px 20px;
+    margin-bottom: 37px;
+    text-align: center;
+    line-height: calc(100% + 8px);
+    background-color: #262f38;
+    border-radius: 30px;
+    color: hsl(25, 97%, 53%); 
+}
+
+#thank-state h1 {
+    margin-bottom: 25px;
+}
+
+.star-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #262f38;
+    margin-bottom: 36px;
+}
+
+.rating-box h1 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.rating-box p {
+    color: hsl(217, 12%, 63%);
+    line-height: 1.6em;
+    margin-bottom: 30px;
+}
+
+.rating-box ol {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.rate-mark {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+
+    background-color: #262f38;
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    cursor: default;
+}
+
+#rate-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+    height: 45px;
+
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(25, 97%, 53%);
+}
+
+#rate-btn:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: #fff;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
